@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyunjin Jung | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="https://github.com/junghj0724.png" alt="Hyunjin Jung">
+                <h1>정현진</h1>
+                <p>Computer Software Eng.</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#skills"><i class="fas fa-terminal"></i> Tech Skills</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Repositories</a></li>
+                    <li><a href="#status"><i class="fas fa-info-circle"></i> Status</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://github.com/junghj0724" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="skills">
+                <h2 class="section-title">TECHNICAL SKILLS</h2>
+                
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span>C / C++</span><span>Java</span><span>Python</span><span>C#</span>
+                    </div>
+                </div>
+
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <h3><i class="fas fa-globe"></i> Web Development</h3>
+                        <ul>
+                            <li><strong>JSP / Servlet (MVC)</strong></li>
+                            <li><strong>HTML5 / CSS3 / JS</strong></li>
+                            <li><strong>Streamlit</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3><i class="fas fa-cube"></i> Graphics & Engine</h3>
+                        <ul>
+                            <li><strong>D3D12</strong></li>
+                            <li><strong>Unity</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3><i class="fas fa-database"></i> DB & Tools</h3>
+                        <ul>
+                            <li><strong>MySQL</strong></li>
+                            <li><strong>Eclipse / IntelliJ</strong></li>
+                            <li><strong>Visual Studio / VS Code</strong></li>
+                            <li><strong>Git / GitHub</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-title">GITHUB REPOSITORIES</h2>
+                <div class="project-list">
+                    
+                <a href="https://github.com/junghj0724/dy_engine" target="_blank" class="project-item">
+                    <div class="project-header">
+                        <h3>dy_engine</h3>
+                        <span class="badge in-progress">In-Progress</span>
+                    </div>
+                    <p class="tech-stack">C++ | D3D12 | Vulkan | Metal</p>
+                    <p>단일 API에 국한되지 않고 D3D12, Vulkan, Metal을 모두 지원하는 크로스 플랫폼 3D 렌더링 엔진입니다. 로우레벨 그래픽스 파이프라인과 시스템 아키텍처를 직접 설계하며 개발 중입니다.</p>
+                </a>
+
+                <a href="https://github.com/junghj0724/MovieVoti" target="_blank" class="project-item">
+                    <div class="project-header">
+                        <h3>MovieVoti</h3>
+                        <span class="badge complete">Completed</span>
+                    </div>
+                    <p class="tech-stack">Java | JSP | MySQL</p>
+                    <p>사용자 참여형 영화 평점 및 리뷰 플랫폼입니다. MVC 아키텍처 기반으로 설계하였으며, DAO/DTO 패턴을 적용한 효율적인 데이터베이스 연동과 관리자 전용 기능을 구현했습니다.</p>
+                </a>
+
+                <a href="https://github.com/junghj0724/streamit-project" target="_blank" class="project-item">
+                    <div class="project-header">
+                        <h3>streamit-project</h3>
+                        <span class="badge complete">Completed</span>
+                    </div>
+                    <p class="tech-stack">Python | Pandas | Streamlit</p>
+                    <p>대규모 설문조사 데이터를 분석하고 시각화하는 웹 대시보드입니다. Pandas를 이용한 데이터 전처리와 Streamlit을 활용한 직관적인 UI 구성을 진행했습니다.</p>
+                </a>
+
+                </div>
+            </section>
+
+            <section id="status">
+                <h2 class="section-title">CURRENT STATUS</h2>
+                <div class="status-box">
+                    <div class="status-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <strong>동양미래대학교</strong>
+                            <p>컴퓨터소프트웨어공학 전공 (3학년 재학)</p>
+                        </div>
+                    </div>
+                    <div class="status-item">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <strong>정보처리산업기사</strong>
+                            <p class="highlight">자격 취득 준비 중 (필기 합격, 실기 대비 중)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
